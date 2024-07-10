@@ -1,0 +1,52 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+h3{
+    font-size: 34px;
+    font-weight: bold;
+}
+
+body{
+    background-color: #c3c3c3;
+}
+
+.container{
+    display: flex;
+    justify-content: center;
+    flex-flow: column wrap;
+    align-items: center;
+    padding-top: 250px;
+}
+
+form{
+    padding: 35px;
+}
+
+input, button{
+    font-size: 20px;
+    font-weight: 600;
+}
+
+button{
+    padding: 0 25px;
+}
+
+ul li{
+    color: #000;
+    font-size: 20px;
+    cursor: pointer;
+}
+
+.tarefa-atual{
+    margin: 0;
+    padding: 0;
+}
+
+.riscado {
+    text-decoration: line-through;
+    cursor: pointer;
+  }
